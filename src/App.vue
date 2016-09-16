@@ -3,14 +3,13 @@
     <img class="logo" src="./assets/logo.png">
     <johns-component></johns-component>
     <hello></hello>
-    <johns-component></johns-component>
-    
+    <johns-component></johns-component>    
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
-import JohnsComponent from './components/JohnsComponent/JohnsComponent'
+import JohnsComponent from './components/JohnsComponent/JohnsComponent.vue'
 
 export default {
   components: {
